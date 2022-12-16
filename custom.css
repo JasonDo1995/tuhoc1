@@ -5,86 +5,96 @@ body {
 
 .white {
   border: 3px solid white;
-}
 
-.green {
-  border: 2px solid green;
-}
 
-.red {
-  border: 3px solid red;
-}
+  .green {
+    border: 1px solid green;
+  }
 
-.banner {
-  height: 600px;
-  background: url(./banner2.jpg) center center no-repeat;
-  overflow: hidden;
-  padding: 20px;
-}
-.banner .About-Signin {
-  height: 80px;
-  width: 100%;
-  Text-align: right;
-  Text-decoration: none;
-  padding: 5px;
-}
-.banner .About-Signin .About,
-.banner .About-Signin .Signin {
-  text-decoration: none;
-  display: inline-block;
-  text-transform: uppercase;
-  margin-top: 30px;
-  padding: 5px 15px;
-}
-.banner .About-Signin .About .Signin,
-.banner .About-Signin .Signin .Signin {
-  margin-right: 100px;
-  border-radius: 10px;
-}
-.banner .Logo {
-  background: url(./picture.webp) center center no-repeat;
-  margin-top: 5px;
-  height: 30%;
-}
-.banner .butn,
-.banner .text {
-  text-align: center;
-  font-size: 30px;
-  margin-top: 50px;
-}
-.banner .butn button,
-.banner .text button {
-  text-transform: uppercase;
-  padding: 7px 10px;
-  border-radius: 10px;
-  margin-top: 5px;
-  border: 2px solid green;
-  cursor: pointer;
-  font-weight: bolder;
-  background-color: blue;
-}
-.banner .butn .text span,
-.banner .text .text span {
-  color: white;
-  font-size: 30px;
-}
-.banner .content img {
-  width: 30px;
-  height: 30px;
-}
-.banner .content .left,
-.banner .content .right,
-.banner .content .center {
-  width: 33%;
-  display: inline-block;
-  text-align: center;
-  margin-top: 25px;
-}
-.banner .content span {
-  display: block;
-  font-size: 20px;
-  color: aqua;
-  padding: 10px;
-}
+  .red {
+    border: 3px solid red;
+  }
 
-/*# sourceMappingURL=custom.css.map */
+  .banner {
+    height: 600px;
+    background: url(./banner2.jpg) center center no-repeat;
+    overflow: hidden;
+    padding: 20px;
+  }
+
+  .banner .About-Signin {
+    height: 80px;
+    width: 100%;
+    Text-align: right;
+    Text-decoration: none;
+    padding: 5px;
+  }
+
+  .banner .About-Signin .About,
+  .banner .About-Signin .Signin {
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 5px 15px;
+  }
+
+  .banner .About-Signin .About .Signin,
+  .banner .About-Signin .Signin .Signin {
+    margin-right: 100px;
+    border-radius: 10px;
+  }
+
+  .banner .Logo {
+    background: url(./picture.webp) center center no-repeat;
+    margin-top: 5px;
+    height: 30%;
+  }
+
+  .banner .butn,
+  .banner .text {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+
+  .banner .butn button,
+  .banner .text button {
+    text-transform: uppercase;
+    padding: 7px 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: 2px solid green;
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: blue;
+  }
+
+  .banner .butn .text span,
+  .banner .text .text span {
+    color: white;
+    font-size: 30px;
+  }
+
+  .banner .content img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .banner .content .left,
+  .banner .content .right,
+  .banner .content .center {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .banner .content span {
+    display: block;
+    font-size: 20px;
+    color: aqua;
+    padding: 10px;
+  }
+
+  /*# sourceMappingURL=custom.css.map */
