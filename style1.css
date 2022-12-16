@@ -1,0 +1,103 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.white {
+    border: 3px solid white
+}
+
+.green {
+    border: 2px solid green
+}
+
+.red {
+    border: 3px solid red
+}
+
+.banner {
+    height: 600px;
+    background: url(./banner2.jpg) center center no-repeat;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.About-Signin {
+    height: 80px;
+    width: 100%;
+    Text-align: right;
+    Text-decoration: none;
+    padding: 5px;
+
+
+}
+
+.About,
+.Signin {
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 5px 15px;
+}
+
+.Signin {
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+.Logo {
+    background: url(./picture.webp) center center no-repeat;
+    margin-top: 5px;
+    height: 30%;
+}
+
+.butn,
+.text {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+
+}
+
+
+
+.banner .butn button {
+    text-transform: uppercase;
+    padding: 7px 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: 2px solid green;
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: blue;
+}
+
+
+.left,
+.right,
+.center {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 25px;
+
+
+
+}
+
+span {
+    display: block;
+    font-size: 20px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.text span {
+    color: white;
+    font-size: 30px;
+    
+}
